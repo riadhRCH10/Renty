@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.renty.host.presentation.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_hilt_ResidentFragment"
+            app:destination="@id/hilt_ResidentFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_hilt_SyndicFragment"
+            app:destination="@id/hilt_SyndicFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.renty.host.presentation.reports.ReportFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.renty.host.presentation.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/hilt_ResidentFragment"
+        android:name="com.example.renty.host.presentation.home.resident.ResidentFragment"
+        android:label="Hilt_ResidentFragment" />
+    <fragment
+        android:id="@+id/hilt_SyndicFragment"
+        android:name="com.example.renty.host.presentation.home.syndic.SyndicFragment"
+        android:label="Hilt_SyndicFragment" />
+
+</navigation>

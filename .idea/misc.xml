@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/bg_whitie.xml" value="0.1" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/bm.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/btn_main.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/btn_main_selected.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_arrow.xml" value="0.11481481481481481" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_beds.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_call.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_clouds.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_drawer.xml" value="0.11481481481481481" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_gps.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.11944444444444445" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_roomie.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_sample_profile.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_star.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_surface.xml" value="0.1388888888888889" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_total_pays.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/ic_total_props.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/drawable/syndic_resident.xml" value="0.1" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/activity_host.xml" value="0.22" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/complete_informations_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/fragment_home_resident.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/fragment_home_syndic.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/fragment_syndic.xml" value="0.1859375" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/home_resident.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/home_syndic.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/item_roomate.xml" value="0.2" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/sign_up_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Kou/Desktop/hackaton/front/app/src/main/res/layout/syndic_resident.xml" value="0.25" />
+        <entry key="..\:/Users/rcher/Desktop/hackathon/hackaton/front/app/src/main/res/layout/activity_main.xml" value="0.360054347826087" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
