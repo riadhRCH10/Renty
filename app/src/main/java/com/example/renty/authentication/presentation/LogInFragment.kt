@@ -67,10 +67,10 @@ class LogInFragment : Fragment(R.layout.sign_in_fragment) {
                         binding.etPasswordLayout.error = null
 
                         when(event.data?.user_type) {
-                            "1" -> {
+                            "SENDIC" -> {
                                 navigateToSindicComponent()
                             }
-                            "2" -> {
+                            "USER" -> {
 
                             }
                         }

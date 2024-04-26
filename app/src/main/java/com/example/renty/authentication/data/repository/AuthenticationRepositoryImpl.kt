@@ -1,5 +1,6 @@
 package com.example.renty.authentication.data.repository
 
+import android.util.Log
 import com.example.renty.authentication.data.remote.AuthenticationApi
 import com.example.renty.authentication.data.remote.dto.loginResponseDto
 import com.example.renty.authentication.domain.model.loginRequest
@@ -24,6 +25,7 @@ class AuthenticationRepositoryImpl(
             val remoteUser = Api.login(payload)
             emit(Resource.Success(remoteUser))
         } catch (e: HttpException) {
+            Log.d("auth", "failed" + e.toString())
             emit(Resource.Error("failed to authenticate: ${e.message()} \ncode: ${e.code()}", e.code()))
         } catch (e: IOException) {
             emit(Resource.Error("failed to reach server ${e.message}"))
@@ -38,8 +40,10 @@ class AuthenticationRepositoryImpl(
             val result = Api.phoneVerification(payload)
             emit(Resource.Success("Phone verified ! $result"))
         } catch (e: HttpException) {
+            Log.d("auth", "failed" + e.toString())
             emit(Resource.Error("failed to verify: ${e.message()} \ncode: ${e.code()}", e.code()))
         } catch (e: IOException) {
+            Log.d("auth", "failed IO" + e.toString())
             emit(Resource.Error("failed to reach server ${e.message}"))
         }
 
