@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/auth_nav_graph"
     app:startDestination="@id/logInFragment">
 
@@ -43,5 +44,17 @@
     <fragment
         android:id="@+id/syndicFragment"
         android:name="com.example.renty.host.presentation.home.syndic.SyndicFragment"
-        android:label="SyndicFragment" />
+        android:label="SyndicFragment" >
+        <action
+            android:id="@+id/action_syndicFragment_to_homeResidentFragment"
+            app:destination="@id/homeResidentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeResidentFragment"
+        android:name="com.example.renty.homeResident.presentation.HomeResidentFragment"
+        android:label="HomeResidentFragment" >
+        <action
+            android:id="@+id/action_homeResidentFragment_to_syndicFragment"
+            app:destination="@id/syndicFragment" />
+    </fragment>
 </navigation>
